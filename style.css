@@ -1,0 +1,79 @@
+body{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;/*tipo de letra*/
+    background-color: rgba(16, 55, 66, 0.766);
+}
+
+nav {
+    background-color: #0683a9;
+    padding: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+.price-box {
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.currency {
+    font-size: 20px;
+}
+
+.amount {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.period {
+    font-size: 16px;
+}
+/* Estilos para pantallas pequeñas (teléfonos móviles) */
+@media only screen and (max-width: 600px) {
+    /* Aquí van los estilos para pantallas pequeñas */
+  }
+  
+  /* Estilos para pantallas medianas (tabletas) */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Aquí van los estilos para pantallas medianas */
+  }
+  
+  /* Estilos para pantallas grandes (portátiles y ordenadores de escritorio) */
+  @media only screen and (min-width: 1025px) {
+    /* Aquí van los estilos para pantallas grandes */
+  }
+
+  .yo{
+    background-color: #0683a9;
+  }
+  .p{
+    background-color: #007fa6;
+  }
